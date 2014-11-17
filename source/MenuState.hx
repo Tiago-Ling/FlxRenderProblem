@@ -21,7 +21,7 @@ class MenuState extends FlxState
 		
 		//Text simply won't appear!
 		var label = new FlxText(10, 300, 1260, "Press 1 to load state with image tearing and jittering problem\nPress 2 to load state with image tearing only", 16, false);
-		label.draw();
+		label.alignment = FlxTextAlign.CENTER;
 		add(label);
 	}
 	

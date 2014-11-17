@@ -44,7 +44,7 @@ class ProblemState extends FlxState
 		add(blockA);
 		
 		//Text does not appear!
-		var label = new FlxText(10, 10, 1000, "Jittering / Tearing Problem - Press SPACE to start / stop movement", 16);
+		var label = new FlxText(10, 10, 1000, "Jittering / Tearing Problem - Press SPACE to start / stop movement - ESC to return to menu", 16);
 		label.scrollFactor.set(0, 0);
 		add(label);
 		

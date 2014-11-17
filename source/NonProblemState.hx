@@ -127,7 +127,7 @@ class NonProblemState extends FlxState
 		FlxG.camera.maxScrollY = 720;
 		
 		//Text does not appear 
-		plPosLabel = new FlxText(10, 10, 1000, "Tearing Problem only - Press SPACE to start / stop movement", 16);
+		plPosLabel = new FlxText(10, 10, 1000, "Jittering Problem only - Press SPACE to start / stop movement - ESC to return to menu", 16);
 		plPosLabel.scrollFactor.set(0, 0);
 		overLayer.add(plPosLabel);
 	}

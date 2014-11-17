@@ -25,12 +25,12 @@
   </classpaths>
   <!-- Build options -->
   <build>
-    <option directives="flixel-addons=1.1.0&#xA;openfl=2.1.5&#xA;flixel=3.3.5&#xA;lime=2.0.0-beta&#xA;tools=2.0.0-beta&#xA;lime-legacy&#xA;NAPE_NO_INLINE&#xA;no-compilation&#xA;native&#xA;FLX_NO_TOUCH&#xA;lime-native&#xA;openfl-native&#xA;windows&#xA;desktop" />
+    <option directives="flixel-addons=1.1.0&#xA;openfl=2.1.5&#xA;flixel=3.3.5&#xA;lime=2.0.0-beta&#xA;tools=2.0.0-beta&#xA;lime-legacy&#xA;NAPE_NO_INLINE&#xA;FLX_NO_DEBUG&#xA;no-compilation&#xA;NAPE_RELEASE_BUILD&#xA;native&#xA;FLX_NO_TOUCH&#xA;lime-native&#xA;openfl-native&#xA;windows&#xA;desktop" />
     <option flashStrict="False" />
     <option noInlineOnDebug="False" />
     <option mainClass="ApplicationMain" />
     <option enabledebug="False" />
-    <option additional="--remap flash:openfl&#xA;--macro flixel.system.macros.FlxConditionals.run()&#xA;#--macro keep(&quot;Main&quot;)&#xA;-debug " />
+    <option additional="--remap flash:openfl&#xA;--macro flixel.system.macros.FlxConditionals.run()&#xA;#--macro keep(&quot;Main&quot;)" />
   </build>
   <!-- haxelib libraries -->
   <haxelib>

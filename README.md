@@ -20,8 +20,11 @@ Small demo to show render tearing, jittering and artifacts in cpp targets. Altho
 currItem.graphics.tilesheet.drawTiles(canvas.graphics, data, true, tempFlags, position);
 ```
 
-### Jittering
+### Jittering (running NonProblemState.hx):
+![Alt Text](https://github.com/Tiago-Ling/FlixelRenderProblemDemo/blob/master/assets/images/jittering.gif)
+
 * What i mean by "jittering": when the camera is moving (by pressing space in one of the states in the sample), each consecutive frame seems to have ~1px of difference in position, "moving" the images to the left or right in the process. The perceived effect is seen as if the screen or the images in it are "shaking" horizontally;
+* This problem is much harder to demonstrate since GIFs are lower in quality and frame rate - to better visualize it the best thing to do is compile and run the project;
 * Jittering does happen in both states.
  
 

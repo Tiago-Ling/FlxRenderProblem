@@ -1,7 +1,14 @@
 FlixelRenderProblemDemo
 =======================
 
-Small demo to show render tearing, jittering and artifacts in cpp targets. Although i'm analyzing this problem using HaxeFlixel, it might be caused by OpenFL or Lime since HF is built on top of them. The following problems are described in this sample:
+Small demo to show render tearing, jittering and artifacts in cpp targets. Although i'm analyzing this problem using HaxeFlixel, it might be caused by OpenFL or Lime since HF is built on top of them. 
+
+HaxeFlixel issues that might be related to this:
+* [Issue #911 - Serious floating-point artifacts on CPP FlxTilemap & FlxSprite](https://github.com/HaxeFlixel/flixel/issues/911)
+* [Issue #1022 - Position jittering due to floating imprecision](https://github.com/HaxeFlixel/flixel/issues/1022)
+* [Issue #1271 - Jittering caused by sprite offsets](https://github.com/HaxeFlixel/flixel/issues/1271)
+
+The following problems are described in this sample:
 
 ### Bitmap Tearing (running ProblemState.hx):
 ![Alt Text](https://github.com/Tiago-Ling/FlixelRenderProblemDemo/blob/master/assets/images/bitmap_tearing.PNG)

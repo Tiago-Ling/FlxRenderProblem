@@ -30,6 +30,8 @@ class ProblemState extends FlxState
 	{
 		super.create();
 		
+		FlxG.autoPause = false;
+		
 		var arr = [[0, 1, 1, 1, 0, 1, 1, 1, 0, 1],
 				   [1, 0, 1, 0, 1, 0, 1, 0, 1, 0],
 				   [1, 1, 0, 1, 1, 1, 0, 1, 1, 1]];

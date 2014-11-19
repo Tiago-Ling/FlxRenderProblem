@@ -60,7 +60,6 @@ class NonProblemState extends FlxState
 		FlxG.log.redirectTraces = false;
 		curLane = 0;
 		
-		FlxG.worldBounds.set(0, 0, 1280000, 720);
 		FlxG.autoPause = false;
 		
 		bgLayer = new FlxGroup();

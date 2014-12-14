@@ -12,10 +12,10 @@ HaxeFlixel issues that might be related to this:
 ### Binaries
 Zipped version of the most recent demo compiled for Windows in release mode. Just unzip it and run `FlxRenderProblem.exe`.
 
-* [Demo B](https://github.com/Tiago-Ling/FlixelRenderProblemDemo/blob/master/binaries/demo_b.zip)
+* [Demo B - Right-click and "Save as"](https://github.com/Tiago-Ling/FlixelRenderProblemDemo/blob/master/binaries/demo_b.zip)
 
-### Observations
+### Notice
 * All demos created using development versions (from the dev branch in Github, where applicable) of flixel, flixel-addons, openfl and lime.
 The sample was created using a development version of FlashDevelop. Trying to open / run the sample in the latest release version of FlashDevelop won't work, to fix this you'll either have to:
-* Get the latest development build of FlashDevelop: http://flashdevelop.org/downloads/builds/
-* Create a new HaxeFlixel blank project (using the command line, type `flixel tpl -n "<project_name>"` in the folder you want to create it) and paste the folders `source` and `assets` from this repository there.
+* Get the latest development build of FlashDevelop: [FlashDevelop Dev Builds](http://flashdevelop.org/downloads/builds/)
+* <b>OR</b> Create a new HaxeFlixel blank project (using the command line, type `flixel tpl -n "<project_name>"` in the folder you want to create it) and paste the folders `source` and `assets` from this repository there.

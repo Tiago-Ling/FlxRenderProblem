@@ -12,7 +12,7 @@ HaxeFlixel issues that might be related to this:
 ### Binaries
 Zipped version of the most recent demo compiled for Windows in release mode. Just unzip it and run `FlxRenderProblem.exe`.
 
-* [Demo B - Right-click and "Save as"](https://github.com/Tiago-Ling/FlixelRenderProblemDemo/blob/master/binaries/demo_b.zip)
+* [Demo B - Right-click and "Save as"](http://tiagoling.com/uploads/render_problem/demo_b.zip)
 
 ### Notice
 * All demos created using development versions (from the dev branch in Github, where applicable) of flixel, flixel-addons, openfl and lime.
